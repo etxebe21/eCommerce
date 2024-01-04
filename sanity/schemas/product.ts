@@ -37,15 +37,15 @@ export default {
     //     title: 'Stripe Price ID',
     //     type: 'string',
     //   },
-    //   {
-    //     name: 'category',
-    //     title: 'Product Category',
-    //     type: 'reference',
-    //     to: [
-    //       {
-    //         type: 'category',
-    //       },
-    //     ],
-    //   },
+      {
+        name: 'category',
+        title: 'Product Category',
+        type: 'reference',
+        to: [
+          {
+            type: 'category',
+          },
+        ],
+      },
     ],
   }
