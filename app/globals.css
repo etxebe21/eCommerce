@@ -26,15 +26,6 @@
     --radius: 0.5rem;
   }
 
-  * {
-    /* Aplicar clases de Tailwind y utilizar variables personalizadas */
-    @apply border border-black;
-  }
-  
-  body {
-    /* Aplicar clases de Tailwind y utilizar variables personalizadas */
-    @apply bg-background text-foreground;
-  }
   .dark {
     --background: 224 71.4% 4.1%;
     --foreground: 210 20% 98%;
